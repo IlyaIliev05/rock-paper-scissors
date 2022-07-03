@@ -5,9 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>Rock Paper Scissors</title>
 </head>
 <body>
+    <body>
+        <header>
+           <h2>Rock Paper Scissors</h2>
+        </header>
+        <section class="game-area">
+            <div>
+                <p>Choose wisely:</p>
+                <button aria-label="Rock" data-choice="0" class="set-game">Rock</button>
+                <button aria-label="Paper" data-choice="1" class="set-game">Paper</button>
+                <button aria-label="Scissors" data-choice="0" class="set-game">Scissors</button>
+            </div>
+            <div id="messages"></div>
+            <div class="player">
+                <h3 class="score">Your score:<span id="player-score">0</span></h3>
+                <img id="player-image" src="assets/images/Player rps.png" alt="Rock Paper Scissors game">
+            </div>
+            <div class="computer">
+                <h3 class="score">Computer score:<span id="computer-score">0</span></h3>
+                <img id="computer-image" src="assets/images/Computer rps.png" alt="Rock Paper Scissors game">
+            </div>
+    
+        </section>
+    
+        <footer>
+            <h3>Rules</h3>
+            <p>Rock crushes scissors, scissors cut paper, and paper covers rock.</p>
+        </footer>
+    
     
     <script src="assets/js/script.js"></script>
 </body>
