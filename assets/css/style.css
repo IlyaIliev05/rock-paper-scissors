@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* Setting up the main page */
 html {
     min-height: 100%;
@@ -21,7 +26,7 @@ header {
 }
 
 p {
-    font-size: 1em;
+    font-size: 22px;
 }
 
 footer {
@@ -35,4 +40,43 @@ footer {
     text-align: center;
     color: white;
     background-color: #38598b;
+}
+
+/* Game area */
+
+.game-area {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.control {
+    display: inline-block;
+    margin: 2px;
+    width: 80px;
+    height: 40px;
+}
+
+#messages {
+    height: 20px;
+}
+
+.player {
+    float: left;
+    width: 45%;
+}
+
+.computer {
+    float: right;
+    width: 45%;
+}
+
+#player-image, #computer-image {
+    width: 65%;
+}
+
+.set-game {
+    font-size: 20px;
 }
