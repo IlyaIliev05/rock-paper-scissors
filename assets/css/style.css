@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+/* Setting up the main page */
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+h2, h3 {
+    font-family: 'Titan One', cursive;
+    font-size: 1.5em;
+}
+
+header {
+    text-align: center;
+    height: 50px;
+    background-color: #38598b;
+    color: white;
+    font-size: 30px;
+    
+}
+
+p {
+    font-size: 1em;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    min-height: 80px;
+    padding-top: 5px;
+    text-align: center;
+    color: white;
+    background-color: #38598b;
+}
