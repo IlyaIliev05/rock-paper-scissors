@@ -17,10 +17,10 @@ h2, h3 {
 
 header {
     text-align: center;
-    height: 50px;
     background-color: #38598b;
     color: white;
     font-size: 30px;
+    padding-bottom: 5px;
     
 }
 
@@ -65,16 +65,23 @@ footer {
 .player {
     float: left;
     width: 45%;
+    background-color: #d5eeff;
+}
+
+#player-image {
+    width: 75%;
 }
 
 .computer {
     float: right;
     width: 45%;
+    background-color: #007cb9;
 }
 
-#player-image, #computer-image {
-    width: 65%;
+#computer-image {
+    width: 75%;
 }
+
 
 .set-game {
     font-size: 20px;
