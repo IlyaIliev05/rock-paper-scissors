@@ -1,1 +1,1 @@
-# rock-paper-scissors
+![Banner Image](assets/images/BannerReadMe.png) 
