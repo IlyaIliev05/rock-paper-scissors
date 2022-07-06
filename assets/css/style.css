@@ -2,6 +2,7 @@
 
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 /* Setting up the main page */
@@ -20,9 +21,10 @@ header {
     background-color: #38598b;
     color: white;
     font-size: 30px;
-    padding-bottom: 5px;
-    
+    padding: 18px;
+    max-width: 100vw;
 }
+    
 
 p {
     font-size: 22px;
@@ -59,7 +61,10 @@ footer {
 }
 
 #messages {
-    height: 20px;
+    font-size: 30px;
+    font-family: 'Titan One';
+    margin-top: 10px;
+    margin-bottom: 35px;
 }
 
 .player {
@@ -85,4 +90,10 @@ footer {
 
 .set-game {
     font-size: 20px;
+}
+
+.run-game {
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-around;
 }

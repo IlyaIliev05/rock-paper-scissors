@@ -1,10 +1,11 @@
+/*jshint esversion: 6 */
+
 const fullGame = [
     ["draw", "player wins", "computer wins"],
     ["player wins", "draw", "computer wins"],
     ["computer wins", "player wins", "draw"]
-]
-let playerResult = document.getElementById('player-score');
-let computerResult = document.getElementById('computer-score');
+];
+
 let messages = document.getElementById('messages');
 let choices = ["rock", "paper", "scissors"];
 
@@ -16,8 +17,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let buttons = document.getElementsByClassName('set-game');
 
-    for (let button of buttons) {
-        button.addEventListener("click", function () {
+    for (let i = 0; i < buttons.length; i++) {
+        buttons[i].addEventListener("click", function () {
             let playerChoice = this.getAttribute('data-choice');
             playGame(playerChoice);
         });
