@@ -1,9 +1,9 @@
 /*jshint esversion: 6 */
 
 const fullGame = [
-    ["draw", "player wins", "computer wins"],
-    ["player wins", "draw", "computer wins"],
-    ["computer wins", "player wins", "draw"]
+    ["Draw!", "Player wins!", "Computer wins!"],
+    ["Player wins!", "Draw!", "Computer wins!"],
+    ["Computer wins!", "Player wins!", "Draw!"]
 ];
 
 let messages = document.getElementById('messages');
